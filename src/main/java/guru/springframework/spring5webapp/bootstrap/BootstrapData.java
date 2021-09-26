@@ -27,7 +27,7 @@ public class BootstrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Publisher publisher = new Publisher("The only One Publisher", "Publishstreet 1, 12345, Publishtown");
+        Publisher publisher = new Publisher("The only One Publisher", "Publishstreet 1", "Publishtown", "PublishState", "Publishtown");
 
         Author daniel = new Author("Daniel", "Idontknow");
         Book theDunno = new Book("The Dunno Book", "12324556", "The Publisher");
